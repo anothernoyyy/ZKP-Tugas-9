@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+.env
+circom.exe
+pot12*
+*ptau
+*.sym
+*.r1cs
