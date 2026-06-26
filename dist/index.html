@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazril Azzam | ZKP Blockchain Auth - TUGAS 9 PBP</title>
+    <meta name="description" content="Implementasi Blockchain pada Sistem Register & Login menggunakan Zero-Knowledge Proof (zk-SNARKs) dengan Circom & SnarkJS">
+    <meta name="author" content="Nazril Azzam">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+
+    <!-- CDN: SnarkJS (ZKP proof generation) -->
+    <script src="https://cdn.jsdelivr.net/npm/snarkjs@0.7.4/build/snarkjs.min.js"></script>
+    
+    <!-- CDN: Ethers.js (MetaMask / Blockchain) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.13.4/ethers.umd.min.js"></script>
+  <script type="module" crossorigin src="/assets/index-D6Iuqf_e.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BjW4Soiz.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-mesh" id="bgMesh"></div>
+    <div class="bg-grid"></div>
+
+    <!-- App Container -->
+    <div id="app"></div>
+
+    <!-- Toast Notifications Container -->
+    <div id="toast-container"></div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay hidden">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p class="loading-text" id="loading-text">Processing...</p>
+        </div>
+    </div>
+
+    <!-- App Scripts (ES Modules) -->
+</body>
+</html>
